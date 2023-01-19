@@ -50,6 +50,7 @@ body{
 .navham{
    display: none;
    cursor: pointer;
+    padding-right: 1rem;
 }
 .bar{
     display: block;
