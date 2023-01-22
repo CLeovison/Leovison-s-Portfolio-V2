@@ -304,10 +304,7 @@ body{
 }
 
 @media(max-width: 768px){
-    .Home{
-        width: 100%;
-        height: 800px;
-    }
+
     .navham{
         display: block;
       }
