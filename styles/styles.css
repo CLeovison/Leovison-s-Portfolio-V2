@@ -12,6 +12,7 @@ body{
     background-color: #18191A;
     color: white;
     font-weight: 400;
+    overflow: hidden;
 }
 /*Start of Navigation Section*/
 .navbar{
