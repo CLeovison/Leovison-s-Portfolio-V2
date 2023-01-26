@@ -355,5 +355,8 @@ body{
         margin-bottom: 20px;
         margin-left: 3px;
     }
-
+    .cntct-form{
+        justify-content: center;
+        align-items: center;
+    }
 }
