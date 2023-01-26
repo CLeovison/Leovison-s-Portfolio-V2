@@ -356,7 +356,7 @@ body{
         margin-left: 3px;
     }
     .cntct-form{
-        justify-content: center;
-        align-items: center;
+          padding: 1rem 2rem 2.5rem 4rem;
+
     }
 }
