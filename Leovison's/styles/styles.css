@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    background-color: #18191A;
+    color: white;
+    font-weight: 400;
+}
+/*Start of Navigation Section*/
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #18191A;
+    height: 50px;
+    position:fixed;
+    width: 100%;
+   
+}
+.navlogo{
+    padding-left: 2rem;
+}
+.navlogo :hover{
+    color: rgb(21, 94, 91);
+}
+.navlist{
+    list-style: none;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 20px 15px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: rgb(21, 94, 91);
+}
+.navham{
+   display: none;
+   cursor: pointer;
+   padding-right: 1rem;
+}
+.bar{
+    display: block;
+    width: 33px;
+    height: 5px;
+    background-color: white;
+    margin: 4px 0;
+    border-radius: 2px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/*End of Navigation Section*/
+
+/*Start of Home Section*/
+.Home{   
+    width: 100%;
+    height: 100vh;
+}
+.hm-wel{
+    font-size: 50px;
+    padding: 7rem 4rem 0.5rem;
+}
+.hm-para{
+    font-size: 20px;
+    padding: 1rem 2rem 3rem 4rem;
+}
+.hm-button{
+    margin: 1rem 2rem 2rem 3.75rem;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: #181a1b;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 1rem;
+}
+/*End of Home Section*/
+
+/*Start of About Section*/
+.About{
+    width: 100%;
+    height: 1600px;
+   
+}
+/*Start of About Me*/
+.abt{
+   display: flex;
+   justify-content:space-evenly;
+   align-items: center;
+   flex-direction: row;
+   height:620px;
+   overflow: hidden;
+}
+.abt-alld{
+   margin-top: 5rem;
+}
+.abt-me{
+    font-size: 30px;
+    padding: 1rem 1rem 3rem 4rem;
+    margin-bottom: 1px;
+}
+.abt-details{   
+    font-size: 20px;
+    text-align:justify;
+    padding-left: 4rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+   
+}
+.abt-img{
+    border-radius: 2rem;
+    height: 400px;
+}
+/*End of About Me*/
+
+/*Start of Experience*/
+.abt-exp{
+    font-size: 20px;
+    padding: 2rem 2rem 3rem 4rem;
+    height: 600px;
+}
+.exp{
+    font-size: 25px;
+    padding: 1rem 0 2rem;
+}
+.abt-konnectd{
+    width: 300px;
+    border: 2px cornsilk solid;
+    border-radius: 1rem;
+   
+}
+.konnectd{
+    padding-top: 10px;
+    padding-left: 1rem;
+}
+.jwd{
+    padding-top: 10px;
+    padding-left: 1rem;
+}
+.date1{
+    font-size: 15px;
+    padding: 10px 1rem 10px;
+}
+.abt-eteam{
+    width: 400px;
+    border: 2px cornsilk solid;
+    border-radius: 1rem;
+    margin: 1rem 0 1rem;
+    margin-left: 20rem;
+}
+.eteam{
+    padding-top: 10px;
+    padding-left: 1rem;
+}
+.happd{
+    padding-top: 10px;
+    padding-left: 1rem;
+}
+.date2{
+    font-size: 15px;
+    padding: 10px 1rem 10px;
+}
+.abt-perps{
+    width: 350px;
+    border: 2px cornsilk solid;
+    border-radius: 1rem;
+    margin-left: 46rem;
+}
+.perps{
+    padding-top: 10px;
+    padding-left: 1rem;
+}
+.webad{
+    padding-top: 10px;
+    padding-left: 1rem;
+}
+.date3{
+    font-size: 15px;
+    padding: 10px 1rem 10px;
+}
+
+/*End of Experience*/
+
+/*Start of Skills*/
+.abt-skills{
+    height: 200px;
+}
+.skills{
+    font-size: 30px;
+    padding: 1rem 2rem 2.5rem 4rem;
+}
+.skils{
+    display: grid;
+    grid-template-columns: repeat(2, 250px); 
+    grid-gap: 20px;
+    padding-left: 4rem;
+    font-size: 16px;
+}
+.skils li{
+    list-style: none;
+}
+
+/*End of Skills*/
+
+/*End of About Section*/
+
+/*Start of Project Section*/
+#Projects{
+    width: 100%;
+    height: 720px;
+}
+.prjct{
+    text-align: center;
+    padding: 7rem 4rem 4rem;
+    font-size: 40px;
+  
+}
+/*End of Project Section*/
+
+/*Start of Contacts Section*/
+.Contacts{
+    width: 100%;
+    height: 720px;
+}
+.cntct{
+    text-align: center;
+    padding: 7rem 4rem 4rem;
+    font-size: 40px;
+}
+.cntct-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cntct-txt, .cntct-email{
+    margin-bottom: 1rem;
+    background-color: #dddddd;
+    color:#666666;
+    padding: 1rem 1.25rem;
+    border: 2px solid gray;
+    border-radius: 15px;
+    
+}
+
+.ctnct-txtarea{
+    background-color: #dddddd;
+    color: #666666;
+    border: 2px solid gray;
+    padding: 1rem 1.25rem;
+    border-radius: 15px;
+    resize: none;
+    height: 200px;
+    width:420px;
+}
+.cntct-btn{
+    font-family:'Roboto Slab', serif;
+    font-size: 15px;
+    background-color: #dddddd;
+    border: 2px solid gray;
+    margin: 1rem;
+    border-radius: 3rem;
+    padding: 0.5rem;
+}
+.cntct-btn:hover{
+    background-color: #666666;
+}
+
+/*End of Contacts Section*/
+
+/*Start of Footer*/
+
+/*End of Footer*/
+
+/*All Media Query*/
+
+@media(max-width: 600px){
+  
+    .abt-eteam{
+        margin-left: 2px;
+    }
+    .abt-perps{
+        margin-left: 2px;
+    }
+    .abt{
+        display:flex;
+        flex-direction: column;
+    }
+    .abt-details{
+        text-align: start;
+        font-size: 15px;
+    }
+    .abt-img{
+        margin-top: 10px;
+        margin-bottom: 150px;
+    }
+   
+}
+
+@media(max-width: 768px){
+
+    .navham{
+        display: block; 
+      }
+     .navham.active .bar:nth-child(2){
+        opacity: 0;
+      }
+     .navham.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+      }
+     .navham.active .bar:nth-child(3){
+        transform: translateY(-10px) rotate(-45deg);
+      }
+      .navbar li{
+        display: block;
+        padding-left: 2rem;
+      }
+      .navlist{
+        
+        position: fixed;
+        left: -100%;
+        top: 50px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #18191A;
+        width: 100%;
+        text-align: left;
+        transition: 0.3s;
+      }
+      .nav-item{
+        margin: 16px 0;
+      }
+      .navlist.active{
+        left:0;
+      }
+
+}
