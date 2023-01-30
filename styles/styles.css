@@ -12,14 +12,12 @@ body{
     background-color: #18191A;
     color: white;
     font-weight: 400;
-
 }
 /*Start of Navigation Section*/
 .navbar{
     display: flex;
     justify-content:space-between;
     align-items: center;
- 
     background-color: #18191A;
     height: 50px;
     position:fixed;
@@ -51,7 +49,7 @@ body{
 .navham{
    display: none;
    cursor: pointer;
-    padding-right: 1rem;
+   padding-right: 1rem;
 }
 .bar{
     display: block;
@@ -59,7 +57,7 @@ body{
     height: 5px;
     background-color: white;
     margin: 4px 0;
-    border-radius: 6px;
+    border-radius: 2px;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
@@ -104,6 +102,10 @@ body{
    align-items: center;
    flex-direction: row;
    height:620px;
+   overflow: hidden;
+}
+.abt-alld{
+   margin-top: 5rem;
 }
 .abt-me{
     font-size: 30px;
@@ -114,9 +116,9 @@ body{
     font-size: 20px;
     text-align:justify;
     padding-left: 4rem;
-    padding-bottom: 2rem;
-    margin-bottom: 5rem;
-    
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+   
 }
 .abt-img{
     border-radius: 2rem;
@@ -132,12 +134,31 @@ body{
 }
 .exp{
     font-size: 25px;
+    padding: 1rem 0 2rem;
+}
+.abt-konnectd{
+    width: 300px;
+    border: 2px cornsilk solid;
+    border-radius: 1rem;
+   
+}
+.konnectd{
+    padding-top: 10px;
+    padding-left: 1rem;
+}
+.jwd{
+    padding-top: 10px;
+    padding-left: 1rem;
+}
+.date1{
+    font-size: 15px;
+    padding: 10px 1rem 10px;
 }
 .abt-eteam{
     width: 400px;
     border: 2px cornsilk solid;
     border-radius: 1rem;
-    margin: 2rem 0 1rem;
+    margin: 1rem 0 1rem;
     margin-left: 20rem;
 }
 .eteam{
@@ -148,29 +169,29 @@ body{
     padding-top: 10px;
     padding-left: 1rem;
 }
-.date1{
-    font-size: 15px;
-    padding-top: 10px;
-    padding-left: 1rem;
-}
-.abt-konnectd{
-    width: 300px;
-    border: 2px cornsilk solid;
-    border-radius: 1rem 1rem 1rem 1rem;
-}
-.konnectd{
-    padding-top: 10px;
-    padding-left: 1rem;
-}
-.jwd{
-    padding-top: 10px;
-    padding-left: 1rem;
-}
 .date2{
     font-size: 15px;
+    padding: 10px 1rem 10px;
+}
+.abt-perps{
+    width: 350px;
+    border: 2px cornsilk solid;
+    border-radius: 1rem;
+    margin-left: 46rem;
+}
+.perps{
     padding-top: 10px;
     padding-left: 1rem;
 }
+.webad{
+    padding-top: 10px;
+    padding-left: 1rem;
+}
+.date3{
+    font-size: 15px;
+    padding: 10px 1rem 10px;
+}
+
 /*End of Experience*/
 
 /*Start of Skills*/
@@ -231,7 +252,7 @@ body{
     color:#666666;
     padding: 1rem 1.25rem;
     border: 2px solid gray;
-    border-radius: 10px;
+    border-radius: 15px;
     
 }
 
@@ -240,7 +261,7 @@ body{
     color: #666666;
     border: 2px solid gray;
     padding: 1rem 1.25rem;
-    border-radius: 10px;
+    border-radius: 15px;
     resize: none;
     height: 200px;
     width:420px;
@@ -260,28 +281,19 @@ body{
 
 /*End of Contacts Section*/
 
+/*Start of Footer*/
+
+/*End of Footer*/
+
 /*All Media Query*/
-@media(max-width: 320px){
-   
-    .abt-eteam{
-        margin-left: 3px;
-    }
 
-}
-@media(max-width: 420px){
- 
-    .abt-eteam{
-        margin-left: 3px;
-    }
-    .abt-eteam{
-        margin-left: 3px;
-    }
-
-}
 @media(max-width: 600px){
   
     .abt-eteam{
-        margin-left: 3px;
+        margin-left: 2px;
+    }
+    .abt-perps{
+        margin-left: 2px;
     }
     .abt{
         display:flex;
@@ -295,18 +307,13 @@ body{
         margin-top: 10px;
         margin-bottom: 150px;
     }
-    .abt-eteam{
-        margin-top: 50px;
-        margin-bottom: 20px;
-        margin-left: 3px;
-    }
-
+   
 }
 
 @media(max-width: 768px){
 
     .navham{
-        display: block;
+        display: block; 
       }
      .navham.active .bar:nth-child(2){
         opacity: 0;
@@ -322,6 +329,7 @@ body{
         padding-left: 2rem;
       }
       .navlist{
+        
         position: fixed;
         left: -100%;
         top: 50px;
@@ -338,21 +346,5 @@ body{
       .navlist.active{
         left:0;
       }
-    .abt{
-        display:flex;
-        flex-direction: column;
-    }
-    .abt-details{
-        text-align: start;
-        font-size: 15px;
-    }
-    .abt-img{
-        margin-top: 10px;
-        margin-bottom: 150px;
-    }
-    .abt-eteam{
-        margin-top: 50px;
-        margin-bottom: 20px;
-        margin-left: 3px;
-    }
+
 }
