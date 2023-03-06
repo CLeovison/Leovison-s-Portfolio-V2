@@ -253,7 +253,7 @@ body{
     padding: 1rem 1.25rem;
     border: 2px solid gray;
     border-radius: 15px;
-    
+    width: 20%;
 }
 
 .ctnct-txtarea{
@@ -263,8 +263,8 @@ body{
     padding: 1rem 1.25rem;
     border-radius: 15px;
     resize: none;
-    height: 200px;
-    width:420px;
+    height: 150px;
+    width:20%;
 }
 .cntct-btn{
     font-family:'Roboto Slab', serif;
@@ -304,10 +304,15 @@ body{
         font-size: 15px;
     }
     .abt-img{
-        margin-top: 10px;
-        margin-bottom: 150px;
+        margin-top: 1rem;
+        margin-bottom: 9rem;
     }
-   
+    .cntct-txt, .cntct-email{
+        width: 90%;
+    }
+    .ctnct-txtarea{
+        width: 90%;
+    }
 }
 
 @media(max-width: 768px){
@@ -347,4 +352,5 @@ body{
         left:0;
       }
 
+  
 }
