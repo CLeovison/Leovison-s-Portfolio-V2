@@ -307,6 +307,10 @@ body{
         margin-top: 1rem;
         margin-bottom: 9rem;
     }
+    .cntct-form{
+        display: flex;
+        align-items: center;
+    }
     .cntct-txt, .cntct-email{
         width: 90%;
     }
